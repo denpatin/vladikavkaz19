@@ -10,4 +10,8 @@ class Vladikavkaz19 < Sinatra::Base
   get '/hungarian' do
     slim :hungarian, layout: :layout
   end
+
+  get '/japanese' do
+    slim :japanese, layout: :layout
+  end
 end
